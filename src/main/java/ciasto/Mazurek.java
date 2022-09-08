@@ -18,5 +18,8 @@ public class Mazurek {
 
     public void upiecz() {
         System.out.println("Pieczemy mazurka z:");
+        for (Skladnik skladnik : skladniki) {
+            skladnik.wypisz();
+        }
     }
 }
